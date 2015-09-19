@@ -287,7 +287,7 @@ static void android_net_utils_bindSocketToNetwork(JNIEnv *env, jobject thiz, jin
 /*
  * JNI registration.
  */
-static JNINativeMethod gNetworkUtilMethods[] = {
+static const JNINativeMethod gNetworkUtilMethods[] = {
     /* name, signature, funcPtr */
 
     { "enableInterface", "(Ljava/lang/String;)I",  (void *)android_net_utils_enableInterface },
