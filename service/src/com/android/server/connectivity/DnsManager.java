@@ -162,11 +162,11 @@ public class DnsManager {
         if (PRIVATE_DNS_MODE_OPEN_DNS == mode) {
             return new PrivateDnsConfig(PRIVATE_DNS_SPECIFIER_OPEN_DNS, null);
         }
-        
+
         if (PRIVATE_DNS_MODE_CLEANBROWSING == mode) {
             return new PrivateDnsConfig(PRIVATE_DNS_SPECIFIER_CLEANBROWSING, null);
         }
-        
+
         if (PRIVATE_DNS_MODE_QUAD9 == mode) {
             return new PrivateDnsConfig(PRIVATE_DNS_SPECIFIER_QUAD9, null);
         }
